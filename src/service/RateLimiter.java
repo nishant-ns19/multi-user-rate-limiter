@@ -12,7 +12,7 @@ public class RateLimiter {
     private final IRateLimiterStorage queue;
     private final RateLimiterMetadata rateLimiterMetadata;
 
-    public RateLimiter(IRateLimiterStorage queue, RateLimiterMetadata rateLimiterMetadata) {
+    public RateLimiter(final IRateLimiterStorage queue, final RateLimiterMetadata rateLimiterMetadata) {
         this.queue = queue;
         this.rateLimiterMetadata = rateLimiterMetadata;
     }
